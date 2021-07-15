@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>TEST</title>
+</head>
+<body>
+    <link rel="stylesheet" href="Daniel.css">
+
+    <canvas id="myCanvas" width="800" height="800" style="border:2px solid black;">
+ </canvas>
+        
+        <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.lineWidth = "4";
+        ctx.rect(20, 20, 80, 80);
+        ctx.font = "10px Arial";
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.lineWidth = "1";
+        ctx.rect(100, 500, 50, 50);
+        ctx.font = "5px Arial";
+        ctx.fillText("Nu înceta să înveți",20,50);
+        ctx.stroke();
+        
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.lineWidth = "1";
+        ctx.rect(200, 30, 50, 50);
+        ctx.font = "10px Arial";
+        ctx.fillText("Nu subestima abilitățile interpersonale",20,50);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.lineWidth = "1";
+        ctx.rect(300, 30, 50, 50);
+        ctx.font = "10px Arial";
+        ctx.fillText("Urmează un curs de specializare",20,50);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.lineWidth = "1";
+        ctx.rect(400, 30, 50, 50);
+        ctx.font = "10px Arial";
+        ctx.fillText("Pasiunea te ajută să reușești",20,50);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.lineWidth = "1";
+        ctx.rect(500, 30, 50, 50);
+        ctx.font = "10px Arial";
+        ctx.fillText("În final, orice sfat ai primi, totul depinde de tine",20,50);
+        ctx.stroke();
+
+        </script> 
+
+</body>
+</html>
